@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support My Work</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <div class="min-h-screen flex flex-col items-center justify-center p-6">
+    <div class="bg-white shadow-lg rounded-2xl p-8 max-w-xl text-center">
+      <h1 class="text-3xl font-bold mb-4">Support My Work</h1>
+      <p class="text-lg mb-6">If you enjoy my content or want to support my work, you can send a donation through PayPal or M-Pesa. Every bit helps!</p>
+
+      <div class="space-y-4">
+        <!-- PayPal Button -->
+        <a href="https://www.paypal.me/ngich27" target="_blank" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+          Donate with PayPal
+        </a>
+
+        <!-- M-Pesa Instructions -->
+        <div class="bg-green-100 p-4 rounded-lg">
+          <p class="text-green-800 font-semibold">M-Pesa Paybill:</p>
+          <p>Paybill Number: <strong>123456</strong></p>
+          <p>Account Number: <strong>yourname</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
